@@ -1,4 +1,4 @@
-html {
+/*html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
@@ -2241,7 +2241,7 @@ a {
   transition: background-size 0.5s ease;
 }
 .bake72__image:hover {
-  background-size: 250%; /* Zooms the background image */
+  background-size: 250%; 
 }
 .bake72__card__grid {
   grid-column-gap: 25px;
@@ -2254,8 +2254,7 @@ a {
   margin-bottom: 10px;
   font-size: 17px;
 }
-  /* your holographic gradient */
-  /*background: linear-gradient(
+  background: linear-gradient(
     60deg,
     #00ffc3,
     #00ffc3,
@@ -2265,7 +2264,7 @@ a {
     #fb00ff,
     #00ffc3,
     #00ffc3
-  );*/
+  );
   .bake72__button {
   position: relative;
   background: linear-gradient(
@@ -2431,4 +2430,4 @@ a {
     margin-left: 20px;
     margin-right: 20px;
   }
-}
+}*/

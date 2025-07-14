@@ -1,4 +1,4 @@
-(function(){
+/*(function(){
     function bindApply(a, b, c) {
         return a.call.apply(a.bind, arguments);
     }
@@ -172,3 +172,4 @@
         }
     }
 })();
+*/
