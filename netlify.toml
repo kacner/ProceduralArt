@@ -1,7 +1,3 @@
 [build]
-  command   = "npm run build"
-  publish   = "dist"
-  environment = { 
-    # if you ever need env vars, e.g.
-    # VITE_API_URL = "https://api.example.com"
-  }
+  command = "npm run build"
+  publish = "dist"
