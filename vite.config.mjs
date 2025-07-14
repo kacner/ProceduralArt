@@ -1,13 +1,16 @@
+// vite.config.mjs
 import { defineConfig } from 'vite';
-import path from 'path';
 
 export default defineConfig({
-  root: path.resolve(__dirname, 'src'),
+  // ← no `root` property, so defaults to project root
+
   build: {
-    outDir: path.resolve(__dirname, 'dist'),
+    outDir: 'dist',
+    emptyOutDir: true,      // cleans old builds
     rollupOptions: {
+      // only needed if you’d previously overridden the HTML input:
       input: {
-        main: path.resolve(__dirname, 'src/index.html')
+        main: 'index.html'  // point at your root-level index.html
       }
     }
   }
