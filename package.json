@@ -1,5 +1,5 @@
 {
-  "name": "procedural-art",
+  "name": "proceduralart",
   "version": "1.0.0",
   "scripts": {
     "build": "vite build",
